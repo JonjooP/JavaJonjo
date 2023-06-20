@@ -13,9 +13,9 @@
                               <h1>HTML/CSS Quiz</h1>
                               <nav>
                                 <ul>
-                                  <li><a href="#student-info">INFO</a></li>
-                                  <li><a href="#html-questions">HTML</a></li>
-                                  <li><a href="#css-questions">CSS</a></li>
+                                  <li><a accesskey="i" href="#student-info">INFO</a></li>
+                                  <li><a accesskey="h" href="#html-questions">HTML</a></li>
+                                  <li><a accesskey="c" href="#css-questions">CSS</a></li>
                                 </ul>
                               </nav>
                             </header>
@@ -64,16 +64,33 @@
                                   <h2 id="css-questions">CSS</h2>
                                   <div class="formrow">
                                     <div class="question=block">
-                                      <label>q-block</label>
+                                      <label for="selection">Are you a frontend developer?</label>
                                     </div>
-                                    <div class="answer"></div>
+                                    <div class="answer">
+                                      <select id="selection" name="selection" required>
+                                        <option value="">Select an option</option>
+                                        <option value="yes">Yes</option>
+                                        <option value="no">No</option>
+                                      </select>
+                                    </div>
                                     <div class="question=block">
-                                      <label>q-block2</label>
+                                      <label for="response">Do you have any questions:</label>
                                     </div>
-                                    <div class="answer"></div>
+                                    <div class="answer">
+                                      <textarea name="response" id="response" rows="3" cols="20" placeholder="Yes, I do front end dev"></textarea>
+                                      </div>
                                   </div>
                                 </section>
+                                <button type="submit">Send</button>
                               </form>
                             </main>
+                            <footer>
+                              <address>
+                              <a target ="_blank" href= 'https://freecatphotoapp.com'>freeCodeCamp</a><br />
+                              Cape Town<br />
+                              Western Cape<br />
+                              South Africa
+                            </address>
+                          </footer>
                           </body>
                           </html>
