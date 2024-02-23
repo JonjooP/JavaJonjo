@@ -1,0 +1,26 @@
+[
+    {
+    "from": {
+    "type": "",
+    "address": ""
+    },
+    "to": [
+    {
+    "type": "INTERNATIONAL",
+    "address": "+27680771414",
+    "fields": [
+    "Jack",
+    "$200.00"
+    ]
+    }
+    ],
+    "routingGroup": "ECONOMY",
+    "encoding": "TEXT",
+    "longMessageMaxParts": 99,
+    "body": "Hi there!",
+    "userSuppliedId": "submission-12765",
+    "protocolId": "IMPLICIT",
+    "messageClass": "FLASH_SMS",
+    "deliveryReports": "ALL"
+    }
+    ]
