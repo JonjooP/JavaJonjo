@@ -149,6 +149,8 @@ function goFight() {
   monsterHealth = monsters[fighting].health; 
   const monsterStats = document.querySelector('#monsterStats'); //The style property is used to access the inline style of an element and the display property is used to set the visibility of an element.
   monsterStats.style.display = 'block';
+  monsterName.innerText = monsters[fighting].name;
+  monsterHealthText.innerText = monsterHealth;
 }
 function attack() {
 
