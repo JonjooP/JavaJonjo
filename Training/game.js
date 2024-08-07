@@ -157,5 +157,5 @@ function attack() {
 }
 
 function dodge() {
-  
+  innerText. = 
 }
