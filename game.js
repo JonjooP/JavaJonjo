@@ -153,7 +153,7 @@ function goFight() {
   monsterHealthText.innerText = monsterHealth;
 }
 function attack() {
-
+update(locations)
 }
 
 function dodge() {
